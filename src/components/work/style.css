@@ -1,0 +1,30 @@
+.my-work-header {
+  text-align: center;
+}
+.my-work-header h1 {
+  text-transform: uppercase;
+}
+.my-work-header p {
+  font-size: 14px;
+}
+.my-work-header hr {
+  border: 3px solid blue;
+  width: 40px;
+}
+.made-with {
+  font-size: 17px;
+  padding-bottom: -20px;
+}
+@media only screen and (max-width: 768px) {
+  .work-photo {
+    margin: auto;
+  }
+}
+.work-photo {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.work-photo:hover {
+  transform: scale(1.1) rotate(10deg);
+}
