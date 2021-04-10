@@ -10,7 +10,7 @@ const linkStyle = {
 const Navbar: React.FC = (): JSX.Element => {
   return (
     <div>
-      <Bootsrap.Navbar bg="light" expand="lg">
+      <Bootsrap.Navbar bg="light" expand="lg" id="home">
         <Bootsrap.Navbar.Brand href="#home">
           <Bootsrap.Col xs={3} md={5}>
             <Image src={logo} fluid />
@@ -22,13 +22,13 @@ const Navbar: React.FC = (): JSX.Element => {
             <Bootsrap.Nav.Link style={linkStyle} href="#home">
               Home
             </Bootsrap.Nav.Link>
-            <Bootsrap.Nav.Link style={linkStyle} href="#link1">
+            <Bootsrap.Nav.Link style={linkStyle} href="#about">
               About
             </Bootsrap.Nav.Link>
-            <Bootsrap.Nav.Link style={linkStyle} href="#link2">
+            <Bootsrap.Nav.Link style={linkStyle} href="#work">
               Work
             </Bootsrap.Nav.Link>
-            <Bootsrap.Nav.Link style={linkStyle} href="#link3">
+            <Bootsrap.Nav.Link style={linkStyle} href="#contact">
               Contact
             </Bootsrap.Nav.Link>
           </Bootsrap.Nav>

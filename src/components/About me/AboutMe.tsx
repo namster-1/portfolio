@@ -24,7 +24,10 @@ const AboutMe: React.FC = (): JSX.Element => {
     );
   };
   return (
-    <div className="container mt-2 shadow-lg p-3 mb-5 bg-white rounded w-75 h-100">
+    <div
+      className="container mt-2 shadow-lg p-3 mb-5 bg-white rounded w-75 h-100"
+      id="about"
+    >
       <div className="row">
         <div className="col-sm">
           <div className="d-flex justify-content-center w-100">
@@ -42,19 +45,19 @@ const AboutMe: React.FC = (): JSX.Element => {
           <h2>About Me</h2>
           <hr className="hr1" />
           <p>
-            Software Engineer who loves to transform ideas into reality using
-            code. I am passionate about using Javascript and Animation Libraries
-            to create awesome user experiences.
+            Meticulous web developer with over 8 month of front end experience
+            and passion for responsive website design and a firm believer in the
+            mobile-first approach. bitcamp and freecodecamp certified.
+            Implemented new responsive website approach which increased mobile
+            traffic by 20%.
           </p>
           <p>
-            With over two years of experience developing web applications using
-            the latest front-end and back-end technologies.
+            I am computer science student in tbilisi state university seconde
+            curse
           </p>
           <p>
             Motivated designer and developer with experience creating custom
-            websites with ReactJs, JavaScript, HTML5, and CSS3. Strong
-            collaboration skills and proven history of application development.
-            Wordpress and MySQL.
+            websites with ReactJs, JavaScript, HTML5, and CSS3.
           </p>
         </div>
       </div>

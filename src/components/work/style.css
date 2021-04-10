@@ -26,5 +26,5 @@
   max-width: 100%;
 }
 .work-photo:hover {
-  transform: scale(1.1) rotate(10deg);
+  transform: scale(1.1);
 }

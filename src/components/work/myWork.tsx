@@ -14,7 +14,7 @@ interface Works {
 const MyWork: React.FC = (): JSX.Element => {
   const Works = ({ href, photo, name }: Works): JSX.Element => {
     return (
-      <div className="text-center">
+      <div className="text-center" id="work">
         <div className="d-flex justify-content-center">
           <a href={href}>
             <Bootsrap.Col xs={10} md={12} className="work-photo">
